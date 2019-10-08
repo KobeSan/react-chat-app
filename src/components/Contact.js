@@ -1,7 +1,6 @@
 import React from 'react';
 
 import './Contact.css';
-import { tsPropertySignature } from '@babel/types';
 
 function Contact(props) {
   return (
