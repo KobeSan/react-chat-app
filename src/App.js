@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import ContactList from './components/ContactList';
+//import ContactList from './components/ContactList';
+import Contact from './components/Contact';
 
 function App() {
   return (
     <div className="App">
-      <ContactList />
+      <Contact name="Maureen Rodriguez" avatar="https://randomuser.me/api/portraits/women/83.jpg"/>
     </div>
   );
 }
